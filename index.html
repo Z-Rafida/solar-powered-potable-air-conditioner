@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar Cooling Innovation</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="#main" id="navbar_logo">SPPAC</a>
-            <div class="navbar_toggle" id="mobile_menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <a href="#main" id="navbar_logo">Game Tech</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <ul class="navbar_menu">
@@ -25,10 +27,10 @@
                     <a href="#innovator" class="navbar_links">Innovator</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="#products" class="navbar_links">Products</a>
+                    <a href="#container_products" class="navbar_links">Products</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="" class="navbar_links">Contact Us</a>
+                    <a href="#contact_wrapper" class="navbar_links">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -38,69 +40,116 @@
     <div id="main">
         <div class="main_container">
             <div class="main_content">
-                <h1>SOLAR-POWERED PORTABLE </h1>
-                <h2>AIR-CONDITIONER</h2>
+                <h1>GAME TECH </h1>
+                <h2>SOLAR AIR</h2>
                 <P>Innovative cooling solution at its finest</P>
-                <button class="main_btn"><a href="#products">Explore</a></button>
+                <button class="main_btn"><a href="#container_products">Explore</a></button>
+            </div>
+            <div class="main_img_container">
+                <img src="images/sp1.webp" alt="" id="main_img">
             </div>
         </div>
     </div>
 
     <!-- Innovator section -->
-     <div id="innovator">
-        <div class="innovator_container">   
-        <div class="innovator_text">
-            <h1> Innovator</h1>
-            <p>Ayeiri Salifu Abdalla, a young entrepreneur from Sunyani West, Bono Region, has developed a sustainable cooling solution
-                to combat extreme heat in rural areas with limited electricity access. Using locally sourced materials and renewable energy, such as solar
-                power and evaporative cooling,
-                the innovation provides an affordable, eco-friendly alternative to conventional air
-                conditioning. The solution aims
-                to improve living conditions, food preservation, and comfort in homes, schools, and healthcare
-                facilities. Gaining interest from
-                local authorities and investors, the entrepreneur seeks partnerships to scale the project and
-                enhance its impact in underserved communities.</p>
-         </div>
-         <div class="innovator_img">
-            <img src="./images/man1.jpg" alt="">
+    <div id="innovator">
+        <div class="innovator_container">
+            <div class="innovator_text">
+                <h1> Innovator</h1>
+                <p>I am salifu Abdallah, an electrical and electronics engineer with innovation background
+                    in providing tech solutions for smart homes, domestic electronic consumable products and renewal
+                    energy..</p>
+            </div>
+            <div class="innovator_img_container">
+                <img src="./images/ppp.jpg" alt="" id="innovator_img">
+            </div>
         </div>
-        </div>
-     </div>
+    </div>
 
-     <!-- Products -->
-      <div id="products">
-        <h1> Discover amazing solar-powered products</h1>
-        <div class="products_container">
-            <div class="product_card">
-                <h2>Camp rock</h2>
-                <p>A portable solar-powered air conditioner designed for camping and outdoor use.</p>
+    <!--products section-->
+    <div id="container_products">
+        <h2> Discover our amazing solar-powered products</h2>
+        <div class="slider_wrapper">
+            <button id="prev_slide" class="fa-solid fa-chevron-left">
+            </button>
+            <div class="image_list">
+                <img src="images/sp1.webp" alt="" class="image_item">
+                <img src="images/sp2.webp" alt="" class="image_item">
+                <img src="images/sp3.webp" alt="" class="image_item">
+                <img src="images/sp4.webp" alt="" class="image_item">
+                <img src="images/sp1.webp" alt="" class="image_item">
+                <img src="images/sp3.webp" alt="" class="image_item">
+                <img src="images/sp2.webp" alt="" class="image_item">
+                <img src="images/sp4.webp" alt="" class="image_item">
             </div>
-            <div class="product_card">
-                <h2>Car-condition</h2>
-                <p>A sleek solor-powered AC for eco-friendly cars.</p>
+            <button id="next_slide" class="fa-solid fa-chevron-right">
+            </button>
+        </div>
+    </div>
+
+    <!--contact section-->
+    <div id="contact_wrapper">
+        <div class="box_wrapper">
+            <div class="info_wrap">
+                <h2 class="info_title">Contact Information</h2>
+                <p class="info_sub_title">Fill up this form and our team will get back to you within 24 hours</p>
+                <ul class="info_details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Phone:</span> <a href="tel:0546281797">+233546281797</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email:</span> <a href="mailto:gamtech628@gmail.com" target="_blank">gamtech628@gmail.com</a>
+                    </li>
+                </ul>
+                <ul class="social_icons">
+                    <li>
+                        <a href="https://www.facebook.com/share/12FHib9NgaL/?mibextid=wwXIfr" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/game_tech628?igsh=MXd4eThwY2R3cG9wYw%3D%3D&utm_source=qr" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@gametech7417?_t=ZM-8uC2XBzrABh&_r=1"><i
+                                class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="product_card">
-                <h2>Giant mount</h2>
-                <p>Large-scale solar AC system for commercial buildings.</p>
-            </div>
-            <div class="product_card">
-                <h2>Home based</h2>
-                <p> solar-powered AC for off-grid rural homes.</p>
-            </div>
-            <div class="product_card">
-                <h2>Home based</h2>
-                <p> solar-powered AC for off-grid rural homes.</p>
-            </div>
-            <div class="product_card">
-                <h2>Home based</h2>
-                <p> solar-powered AC for off-grid rural homes.</p>
-            </div>
-            
+            <div class="form_wrap">
+                <form action="#" method="POST">
+                    <h2 class="form_title">Send us a message</h2>
+                    <div class="form_fields">
+                        <div class="form_group">
+                            <input type="text" class="fname" placeholder="First Name">
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form_group">
+                            <input type="email" class="email" placeholder="Email">
+                        </div>
+                        <div class="form_group">
+                            <input type="number" class="phone" placeholder="Phone">
+                        </div>
+                        <div class="form_group">
+                            <textarea name="message" id="" placeholder="Write your message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send Message" class="submit_btn">
+                </form>
+
             </div>
         </div>
-      </div>
+    </div>
 
-    <script src="sppac.js"></script>
+  <div class="footer">
+    <p1></p1>
+    <p>&copy; 2025 Game Tech. All rights reserved. </p>
+  </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
