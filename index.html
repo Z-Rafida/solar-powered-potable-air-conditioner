@@ -119,26 +119,26 @@
                 </ul>
             </div>
             <div class="form_wrap">
-                <form action="#" method="POST">
+                <form action="#" method="POST" id="contactForm">
                     <h2 class="form_title">Send us a message</h2>
                     <div class="form_fields">
                         <div class="form_group">
-                            <input type="text" class="fname" placeholder="First Name">
+                            <input type="text" id="fname" placeholder="First Name" required>
                         </div>
                         <div class="form_group">
-                            <input type="text" class="lname" placeholder="Last Name">
+                            <input type="text" id="lname" placeholder="Last Name" required>
                         </div>
                         <div class="form_group">
-                            <input type="email" class="email" placeholder="Email">
+                            <input type="email" id="email" placeholder="Email" required>
                         </div>
                         <div class="form_group">
-                            <input type="number" class="phone" placeholder="Phone">
+                            <input type="number" id="phone" placeholder="Phone" required>
                         </div>
                         <div class="form_group">
-                            <textarea name="message" id="" placeholder="Write your message"></textarea>
+                            <textarea name="message" id="message" placeholder="Write your message" required></textarea>
                         </div>
                     </div>
-                    <input type="submit" value="Send Message" class="submit_btn">
+                        <input type="submit" value="Send Message" class="submit_btn">
                 </form>
 
             </div>

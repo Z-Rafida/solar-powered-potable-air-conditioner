@@ -23,3 +23,19 @@ const initSlider = () => {
 }
 
 window.addEventListener("load", initSlider);
+
+
+//mailto
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("fname", "lname").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    const mailtoLink = `mailto:zakariarafida81@gmail.com?subject=Message from ${encodeURIConponent(name)}&body=${encodeURIComponent(message)}%0D%0A%0D%0AFrom: ${encodeURIComponent(name)} (${encodeURIComponent(email)})`;
+
+    window.location.href = mailtoLink;
+});
+
+    
