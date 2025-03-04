@@ -117,13 +117,13 @@ body {
     font-weight: bold;
     opacity: 0;
     animation: fadeInUp 1s forwards 1.5s;
-     background-color: goldenrod;
-     background-image: linear-gradient(to top, #ffe608 0%, #ffe499 100%);
-     background-size: 100%;
-     -webkit-background-clip: text;
-     -moz-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     -moz-text-fill-color: transparent;
+    background-color: goldenrod;
+    background-image: linear-gradient(to top, #ffe608 0%, #ffe499 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .main_content h2 {
@@ -131,12 +131,12 @@ body {
     opacity: 0;
     animation: fadeInUp 1s forwards 2s;
     background-color: #08ff46;
-     background-image: linear-gradient(to top, #fffb21 0%, #21d4fd 100%);
-     background-size: 100%;
-     -webkit-background-clip: text;
-     -moz-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     -moz-text-fill-color: transparent;
+    background-image: linear-gradient(to top, #fffb21 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .main_content p {
@@ -159,7 +159,7 @@ body {
     animation: fadeInUp 1s forwards 3s;
 }
 
-.main_btn a{
+.main_btn a {
     text-decoration: none;
     color: #fff;
 }
@@ -221,7 +221,7 @@ body {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 1s forwards 0.5s;
@@ -280,8 +280,7 @@ h2 {
 /*services section*/
 #services {
     display: grid;
-    gap: 30px;
-    padding: 50px;
+    padding: 50px 30px;
     text-align: center;
 }
 
@@ -291,13 +290,14 @@ h3 {
     opacity: 0;
     animation: fadeIn 1s forwards 0.5s;
 }
- .service_grid {
+
+.service_grid {
     background: #fff;
     border-radius: 10px;
     gap: 20px;
-    padding: 40px;
-   margin: 20px;
-   transition: transform 0.5s ease;
+    padding: 30px;
+    margin: 20px;
+    transition: transform 0.5s ease;
 }
 
 h5 {
@@ -307,11 +307,10 @@ h5 {
     color: #000;
 }
 
-/* Check Icon */
 .service_grid .icon::before {
     font-size: 32px;
     background-color: #fff;
-    color: #a00000;
+    color: green;
     display: block;
     margin: 0 auto 10px;
     font-weight: bold;
@@ -504,9 +503,9 @@ textarea {
         max-width: 90%;
     }
 
-.service_wrap {
+    .service_wrap {
         flex-direction: column;
-        gap: 20px;  
+        gap: 20px;
     }
 
     .box_wrapper {
