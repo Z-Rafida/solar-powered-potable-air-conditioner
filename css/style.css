@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    background-color: green;
+    background-color: #2E7D32; /* Updated green color */
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -39,7 +39,7 @@ body {
 
 #navbar_logo {
     font-size: 24px;
-    color: gold;
+    color: #FFD700; /* Updated gold color */
     text-decoration: none;
     font-weight: bold;
     opacity: 0;
@@ -53,7 +53,7 @@ body {
 }
 
 .navbar_toggle .bar {
-    background-color: gold;
+    background-color: #FFD700; /* Updated gold color */
     height: 3px;
     width: 25px;
     margin: 3px 0;
@@ -69,7 +69,7 @@ body {
 }
 
 .navbar_links {
-    color: gold;
+    color: #FFD700; /* Updated gold color */
     text-decoration: none;
     font-size: 18px;
 }
@@ -85,7 +85,7 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: green;
+    background-color: #2E7D32; /* Updated green color */
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 5;
@@ -129,14 +129,12 @@ body {
     z-index: 2; /* Ensure content is above overlay */
 }
 
-
 .main_container {
     display: flex;
     flex-direction: column; /* Change to column for mobile */
     align-items: center; /* Center items */
     width: 100%;
 }
-
 
 .main_content h1 {
     font-size: 50px;
@@ -150,7 +148,7 @@ body {
     font-size: 30px;
     opacity: 0;
     animation: fadeInUp 1s forwards 2s;
-    color: #ffcc00; /* Change to a gold color for better contrast */
+    color: #FFD700; /* Updated gold color */
 }
 
 .main_content p {
@@ -159,7 +157,6 @@ body {
     animation: fadeInUp 1s forwards 2.5s;
     color: #ffffff; /* Change to white for better contrast */
 }
-
 
 .main_content h2 {
     font-size: 30px;
@@ -183,7 +180,7 @@ body {
 .main_btn {
     padding: 10px 20px;
     background: linear-gradient(to top, #f0d508 0%, #92d441 100%);
-    color: white;
+    color: #FFD700; /* Updated gold color */
     border: none;
     font-size: 16px;
     margin-top: 20px;
@@ -232,15 +229,11 @@ body {
     margin: 0 20px; /* Equal margins on both sides */
 }
 
-
 .innovator_img_container img {
     max-width: 60%; /* Increase width of the image to 60% */
     height: auto; /* Maintain aspect ratio */
     margin-left: 40px; /* Move the image slightly to the right by 40px */
 }
-
-
-
 
 .innovator_text {
     max-width: 400px; /* Set maximum width for text */
@@ -324,7 +317,6 @@ h2 {
     right: 10px;
 }
 
-
 /*services section*/
 #services {
     display: grid;
@@ -333,8 +325,8 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 27px;
+    margin-top: 15px;
     opacity: 0;
     animation: fadeIn 1s forwards 0.5s;
 }
@@ -349,16 +341,12 @@ h3 {
 
 .service_wrap {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Change to single column for mobile */
-    grid-template-rows: auto;
-    grid-column-gap: 0px;
+    grid-template-columns: repeat(4, 1fr); /* Change to single column for mobile */
     grid-row-gap: 20px; /* Adjust row gap for mobile */
 }
 
-
-h5 {
-    font-size: 18px;
-    font-weight: bold;
+h6 {
+    font-size: 13px;
     margin-bottom: 10px;
     color: #000;
 }
@@ -366,12 +354,11 @@ h5 {
 .service_grid .icon::before {
     font-size: 32px;
     background-color: #fff;
-    color: green;
+    color: #2E7D32; /* Updated hover color to sea blue */
     display: block;
     margin: 0 auto 10px;
     font-weight: bold;
 }
-
 
 /* Contact Section */
 #contact_wrapper {
@@ -380,17 +367,18 @@ h5 {
 }
 
 .box_wrapper {
-    display: flex;
-    flex-direction: column; /* Change to column for mobile */
-    gap: 30px; /* Adjust gap for mobile */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; /* Reduced gap between columns */
+    margin: 20px; /* Added margin around the box_wrapper */
 }
 
-
-.info_wrap {
+.info_wrap, .form_wrap {
     flex: 1;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px; /* Reduced padding */
     border-radius: 8px;
+    margin: 10px; /* Added margin between info_wrap and form_wrap */
 }
 
 .info_title {
@@ -437,13 +425,13 @@ h5 {
 }
 
 .social_icons a:hover {
-    color: green;
+    color: #1E90FF; /* Updated hover color to sea blue */
 }
 
 .form_wrap {
     flex: 1;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px; /* Reduced padding */
     border-radius: 8px;
 }
 
@@ -480,8 +468,8 @@ textarea {
 .submit_btn {
     width: 100%;
     padding: 15px;
-    background-color: green;
-    color: gold;
+    background-color: #2E7D32; /* Updated green color */
+    color: #FFD700; /* Updated gold color */
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -495,14 +483,13 @@ textarea {
 
 /* Footer */
 .footer {
-    background-color: green;
-    color: gold;
+    background-color: #2E7D32; /* Updated green color */
+    color: #FFD700; /* Updated gold color */
     text-align: center;
     padding: 20px;
     position: relative;
     font-size: 14px; /* Adjust font size for better readability */
 }
-
 
 .footer p {
     font-size: 14px;
@@ -536,7 +523,6 @@ textarea {
     .main_content h2 {
         font-size: 24px;
     }
-
 
     .main_img_container img {
         max-width: 100%;
@@ -586,7 +572,7 @@ textarea {
     }
 
     .footer p {
-        font-size: 12px;
+    font-size: 12px;
     }
 }
 
