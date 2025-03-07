@@ -1,186 +1,269 @@
+​
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>game tech solar air</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>GameTech Solar Air</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
-        <div class="navbar_container">
-            <a href="#main" id="navbar_logo">Game Tech</a>
-            <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span><span class="bar"></span>
+        <div class="container">
+            <div class="logo">
+                <h1>GameTech Solar<span>Air</span></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#innovator">Innovator</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="#main" class="navbar_links">Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#innovator" class="navbar_links">Innovator</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#container_products" class="navbar_links">Products</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#services" class="navbar_links">Services</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#contact_wrapper" class="navbar_links">Contact Us</a>
-                </li>
-            </ul>
         </div>
     </nav>
 
-    <!-- Header -->
-    <div id="main">
-        <div class="main_container">
-            <div class="main_content">
-                <h1>GAME TECH </h1>
-                <h2>SOLAR AIR</h2>
-                <P>Innovative cooling solution at its finest</P>
-                <button class="main_btn"><a href="#container_products">Explore</a></button>
-            </div>
-            <!-- <div class="main_img_container">
-                <img src="images/sp1.webp" alt="" id="main_img">
-            </div> -->
-        </div>
-    </div>
-
-    <!-- Innovator section -->
-    <div id="innovator">
-        <div class="innovator_container">
-            <div class="innovator_text">
-                <h1> Innovator</h1>
-                <p>I am salifu Abdallah, an electrical and electronics engineer with innovation background
-                    in providing tech solutions for smart homes, domestic electronic consumable products and renewal
-                    energy..</p>
-            </div>
-            <div class="innovator_img_container">
-                <img src="./images/ppp.jpg" alt="" id="innovator_img">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Green Energy Tech Solution</h1>
+                <h2>Solar-Powered Portable Products</h2>
+                <p>Bringing affordable, sustainable cooling to rural communities with limited electricity access</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn-primary">Our Products</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!--products section-->
-    <div id="container_products">
-        <h2> Discover our amazing solar-powered products</h2>
-        <div class="slider_wrapper">
-            <button id="prev_slide" class="fa-solid fa-chevron-left">
-            </button>
-            <div class="image_list">
-                <img src="images/sp1.webp" alt="" class="image_item">
-                <img src="images/sp2.webp" alt="" class="image_item">
-                <img src="images/sp3.webp" alt="" class="image_item">
-                <img src="images/sp4.webp" alt="" class="image_item">
-                <img src="images/sp1.webp" alt="" class="image_item">
-                <img src="images/sp3.webp" alt="" class="image_item">
-                <img src="images/sp2.webp" alt="" class="image_item">
-                <img src="images/sp4.webp" alt="" class="image_item">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Solution</h2>
             </div>
-            <button id="next_slide" class="fa-solid fa-chevron-right">
-            </button>
-        </div>
-    </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Addressing Climate Challenges in Ghana</h3>
+                    <p>Our solar-powered portable air conditioning units are designed to combat the intense heat
+                        experienced across Ghana, particularly in rural communities with limited access to electricity.
+                    </p>
 
-<!--services section-->
-    <div id="services">
-        <h3>Services We Render</h3>
-        <div class="service_wrap">
-            <div class="service_grid">
-                <i class="icon fa-regular fa-circle-check"></i>
-                <h6>Consultant on renewable energy  Management </h6>
-                <p>Providing expert guidance on renewable energy solutions, including solar power system design, installation, and maintenance to ensure sustainable and efficient energy use.</p>
-            </div>
-            <div class="service_grid">
-                <i class="icon fa-regular fa-circle-check"></i>
-                <h6>Project Research, and Management services</h6>
-                <p>Offering in-depth research and professional project management services to ensure successful planning, execution, and completion of renewable energy and technology projects.</p>
-            </div>
-            <div class="service_grid">
-                <i class="icon fa-regular fa-circle-check"></i>
-                <h6>PLC, IoT and embedded system development services</h6>
-                <p>Designing and developing advanced automation solutions using PLCs, IoT, and embedded systems to enhance efficiency, connectivity, and control in industrial and smart technology applications.</p>
-            </div>
-            <div class="service_grid">
-                <i class="icon fa-regular fa-circle-check"></i>
-                <h6>General electrical installation, and electronics components management services</h6>
-                <p>Providing expert electrical installation services and efficient management of electronic components to ensure safe, reliable, and high-performance electrical systems for homes and businesses.</p>
+                    <h3>Our Mission</h3>
+                    <p>We're committed to providing affordable and sustainable cooling options that improve health,
+                        productivity, and daily operations for both individuals and businesses.</p>
+
+                    <h3>Our Approach</h3>
+                    <ul>
+                        <li><i class="fas fa-leaf"></i> Energy-efficient design focused on sustainability</li>
+                        <li><i class="fas fa-industry"></i> Local manufacturing to boost the Ghanaian economy</li>
+                        <li><i class="fas fa-users"></i> Community involvement in development and implementation</li>
+                        <li><i class="fas fa-sun"></i> 100% solar-powered for areas with limited grid access</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="/images/ac1.webp" alt="Solar-powered AC unit">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-    <!--contact section-->
-    <div id="contact_wrapper">
-        <div class="box_wrapper">
-            <div class="info_wrap">
-                <h2 class="info_title">Contact Information</h2>
-                <p class="info_sub_title">Fill up this form and our team will get back to you within 24 hours</p>
-                <ul class="info_details">
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        <span>Phone:</span> <a href="tel:0546281797">+233546281797</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Email:</span> <a href="mailto:gamtech628@gmail.com" target="_blank">gamtech628@gmail.com</a>
-                    </li>
-                </ul>
-                <ul class="social_icons">
-                    <li>
-                        <a href="https://www.facebook.com/share/12FHib9NgaL/?mibextid=wwXIfr" target="_blank"><i
-                                class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/game_tech628?igsh=MXd4eThwY2R3cG9wYw%3D%3D&utm_source=qr" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.tiktok.com/@gametech7417?_t=ZM-8uC2XBzrABh&_r=1"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                    </li>
-                </ul>
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <div class="underline"></div>
             </div>
-            <div class="form_wrap">
-                <form action="#" method="POST" id="contactForm">
-                    <h2 class="form_title">Send us a message</h2>
-                    <div class="form_fields">
-                        <div class="form_group">
-                            <input type="text" id="fname" placeholder="First Name" required>
-                        </div>
-                        <div class="form_group">
-                            <input type="text" id="lname" placeholder="Last Name" required>
-                        </div>
-                        <div class="form_group">
-                            <input type="email" id="email" placeholder="Email" required>
-                        </div>
-                        <div class="form_group">
-                            <input type="number" id="phone" placeholder="Phone" required>
-                        </div>
-                        <div class="form_group">
-                            <textarea name="message" id="message" placeholder="Write your message" required></textarea>
-                        </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/images/ac1.webp" alt="Portable Solar AC">
                     </div>
-                        <input type="submit" value="Send Message" class="submit_btn">
-                </form>
-
+                    <div class="product-info">
+                        <h3>Portable Solar AC</h3>
+                        <p>Compact cooling solution perfect for homes and small offices, completely powered by solar
+                            energy.</p>
+                        <a href="#contact" class="btn-product">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/images/solar_powered_charging_station.png" alt="Commercial Solar AC">
+                    </div>
+                    <div class="product-info">
+                        <h3>Solar Charging Station</h3>
+                        <p>Higher capacity units designed for individuals,
+                            businesses, schools, and community centers with little access to electricity.</p>
+                        <a href="#contact" class="btn-product">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/images/hatt.jpg" alt="Solar Cooling Kit">
+                    </div>
+                    <div class="product-info">
+                        <h3>Solar cooling hat</h3>
+                        <p>Provide condusive cooling option with a charging port for Market women and the public under
+                            the Sun.</p>
+                        <a href="#contact" class="btn-product">Inquire Now</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-  <div class="footer">
-    <p1></p1>
-    <p>&copy; 2025 Game Tech. All rights reserved. </p>
-  </div>
-    <script src="app.js"></script>
+    <!-- Innovator Section -->
+    <section id="innovator" class="innovator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet The Innovator</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="innovator-content">
+                <div class="innovator-image">
+                    <img src="/images/ppp.jpg" alt="Entrepreneur portrait">
+                </div>
+                <div class="innovator-info">
+                    <p>Our founder is a young entrepreneur from the Bono Region of Ghana who experienced firsthand the
+                        challenges of intense heat in rural communities with limited electricity access. <br>
+                        Driven by a passion for sustainable technology and community development, he set out to create
+                        affordable cooling solutions that harness Ghana's abundant solar resources. <br>
+                        He aims to scale this innovation, providing technical training
+                        to local youth while addressing a critical need across hot regions of Ghana.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2>Product Showcase</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="showcase-content">
+                <div class="showcase-gallery">
+                    <div class="gallery-item">
+                        <img src="/images/solar_powered_charging_station.png" alt="Solar Charging Station">
+                        <div class="caption">Solar-powered Charging Station</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/hatt.jpg" alt="Solar Portable hat">
+                        <div class="caption">Solar Portable hat</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/ac1.webp" alt="Solar-powered AC">
+                        <div class="caption">Solar-powered AC</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/fount.jpg" alt=" portable water fountain">
+                        <div class="caption">Portable Water Fountain</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/stun gun.jpg" alt=" Stun Gun">
+                        <div class="caption">Stun Gun</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/sp4.webp" alt="industrial solar AC installation">
+                        <div class="caption">Industrial Solar AC Installation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0546281797">+233 546 281 797</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:gamtech628@gmail.com" target="_blank">gamtech628@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Sunyani West, Bono Region, Ghana</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/12FHib9NgaL/?mibextid=wwXIfr" class="social-link"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/game_tech628?igsh=MXd4eThwY2R3cG9wYw%3D%3D&utm_source=qr"
+                            class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@gametech7417?_t=ZM-8uC2XBzrABh&_r=1" class="social-link"><i
+                                class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="inquiry-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone (optional)">
+                        </div>
+                        <div class="form-group">
+                            <select id="inquiry-type" name="inquiry-type" required>
+                                <option value="" disabled selected>Select Inquiry Type</option>
+                                <option value="product">Product Information</option>
+                                <option value="partnership">Partnership Opportunities</option>
+                                <option value="investment">Investment Interest</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <h2>GameTech Solar<span>Air</span></h2>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GamTech Solar Air. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
