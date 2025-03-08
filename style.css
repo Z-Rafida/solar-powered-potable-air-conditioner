@@ -225,7 +225,7 @@ section {
 
 .btn-secondary {
     background-color: transparent;
-    color: var(--primary-color);
+    color: var(--white);
     border: 2px solid var(--primary-color);
     margin-left: 1rem;
 }
